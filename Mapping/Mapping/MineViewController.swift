@@ -10,10 +10,5 @@ import UIKit
 
 class MineViewController: BaseViewController
 {
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-        view.backgroundColor = UIColor.orange
-    }
 
 }

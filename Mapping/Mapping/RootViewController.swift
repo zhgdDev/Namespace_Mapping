@@ -10,8 +10,7 @@ import UIKit
 
 class RootViewController: UITabBarController
 {
-
-    private lazy var composeButton:UIButton = UIButton(type: .custom)
+    private lazy var composeButton:UIButton = UIButton(title: "", image: "btn_addIcon", bgImage: "btn_bgImage")
     
     override func viewDidLoad()
     {
@@ -19,18 +18,33 @@ class RootViewController: UITabBarController
         view.backgroundColor = UIColor.white
 
         setupChildControllers()
+        setupComposeButton()
     }
     
+    @objc private func composeAction()  {
+        print("composeAction")
+    }
 }
 
 extension RootViewController
 {
+    private func setupComposeButton()
+    {
+//        composeButton.backgroundColor = UIColor.blue
+//
+//        let count = CGFloat(viewControllers!.count)
+//        let w = (tabBar.bounds.width) / count
+//        composeButton.frame = tabBar.bounds.insetBy(dx:w * 0.75, dy: 0)
+//        tabBar.addSubview(composeButton)
+//
+//        composeButton.addTarget(self, action: #selector(composeAction), for: .touchUpInside)
+    }
     
     //设置u所有子控制器
    private func setupChildControllers()
     {
         let array = [["clsName":"HomeViewController","title":"首页","imageName":"tabbar_icons_0_n"],
-                     ["clsName":"MineViewController","title":"首页","imageName":"tabbar_icons_1_n"]]
+                     ["clsName":"MineViewController","title":"我的","imageName":"tabbar_icons_1_n"]]
         
         var arrayVC = [UIViewController]()
         
@@ -68,6 +82,7 @@ extension RootViewController
         //系统默认12
         vc.tabBarItem.setTitleTextAttributes([NSAttributedString.Key.font:UIFont.systemFont(ofSize: 12)], for: UIControl.State(rawValue: 0))
         
+        //压栈
         let nav = GDNavgationViewController(rootViewController:vc)
        
         return nav

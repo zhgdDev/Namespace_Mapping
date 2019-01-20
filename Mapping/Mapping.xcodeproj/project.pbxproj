@@ -20,6 +20,10 @@
 		05B9791421F4368500CD90D4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9791321F4368500CD90D4 /* BaseViewController.swift */; };
 		05B9791621F436F400CD90D4 /* GDNavgationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9791521F436F400CD90D4 /* GDNavgationViewController.swift */; };
 		05B9791821F438E700CD90D4 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9791721F438E700CD90D4 /* Bundle+Extension.swift */; };
+		05B9792921F442E400CD90D4 /* GDButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9792821F442E400CD90D4 /* GDButton+Extension.swift */; };
+		05B9792B21F44DB200CD90D4 /* GDBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9792A21F44DB200CD90D4 /* GDBarButtonItem+Extension.swift */; };
+		05B9792D21F451C600CD90D4 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9792C21F451C600CD90D4 /* DemoViewController.swift */; };
+		05B9793121F49B7B00CD90D4 /* GDNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9793021F49B7B00CD90D4 /* GDNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		05B9791321F4368500CD90D4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		05B9791521F436F400CD90D4 /* GDNavgationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDNavgationViewController.swift; sourceTree = "<group>"; };
 		05B9791721F438E700CD90D4 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		05B9792821F442E400CD90D4 /* GDButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GDButton+Extension.swift"; sourceTree = "<group>"; };
+		05B9792A21F44DB200CD90D4 /* GDBarButtonItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GDBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		05B9792C21F451C600CD90D4 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		05B9793021F49B7B00CD90D4 /* GDNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +120,14 @@
 				05B978D221F434BC00CD90D4 /* AppDelegate.swift */,
 				05B9790021F434E200CD90D4 /* RootViewController.swift */,
 				05B9791721F438E700CD90D4 /* Bundle+Extension.swift */,
+				05B9792A21F44DB200CD90D4 /* GDBarButtonItem+Extension.swift */,
+				05B9792821F442E400CD90D4 /* GDButton+Extension.swift */,
+				05B9793021F49B7B00CD90D4 /* GDNavigationBar.swift */,
 				05B9791521F436F400CD90D4 /* GDNavgationViewController.swift */,
 				05B9791321F4368500CD90D4 /* BaseViewController.swift */,
 				05B9790221F4355600CD90D4 /* HomeViewController.swift */,
 				05B9790421F4356400CD90D4 /* MineViewController.swift */,
+				05B9792C21F451C600CD90D4 /* DemoViewController.swift */,
 				05B978D421F434BC00CD90D4 /* ViewController.swift */,
 				05B978D621F434BC00CD90D4 /* Main.storyboard */,
 				05B978D921F434BD00CD90D4 /* Assets.xcassets */,
@@ -275,10 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B978D521F434BC00CD90D4 /* ViewController.swift in Sources */,
+				05B9792B21F44DB200CD90D4 /* GDBarButtonItem+Extension.swift in Sources */,
 				05B9791621F436F400CD90D4 /* GDNavgationViewController.swift in Sources */,
 				05B978D321F434BC00CD90D4 /* AppDelegate.swift in Sources */,
+				05B9793121F49B7B00CD90D4 /* GDNavigationBar.swift in Sources */,
 				05B9791821F438E700CD90D4 /* Bundle+Extension.swift in Sources */,
+				05B9792D21F451C600CD90D4 /* DemoViewController.swift in Sources */,
 				05B9790121F434E200CD90D4 /* RootViewController.swift in Sources */,
+				05B9792921F442E400CD90D4 /* GDButton+Extension.swift in Sources */,
 				05B9790321F4355600CD90D4 /* HomeViewController.swift in Sources */,
 				05B9790521F4356400CD90D4 /* MineViewController.swift in Sources */,
 				05B9791421F4368500CD90D4 /* BaseViewController.swift in Sources */,
